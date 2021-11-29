@@ -1,0 +1,33 @@
+.faq {
+  margin-bottom: 30px;
+}
+.faq__container {
+  display: flex;
+  padding: 20px;
+
+  border-radius: 10px;
+  background-color: #13131a;
+}
+.faq__title {
+  font-size: 2.5rem !important;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(245, 237, 237) !important;
+}
+.faq__item {
+  margin-bottom: 20px;
+}
+
+.faq__item p {
+  color: #ccc;
+  font-size: 1.6rem;
+}
+.faq__content {
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 769px) {
+  .faq__container {
+    display: inline-block;
+  }
+}

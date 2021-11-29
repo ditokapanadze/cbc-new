@@ -1,0 +1,45 @@
+.footer {
+  height: 200px;
+  margin: 0;
+  display: flex;
+
+  justify-content: space-between;
+  /* background-color: azure; */
+}
+.logo {
+  height: 6rem;
+}
+.logo__container {
+  display: flex;
+  align-items: center;
+  max-width: 220px;
+  justify-content: space-between;
+}
+.logo__container p {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.logo__container p span {
+  font-size: 1.5rem;
+}
+.footer__li {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #ccc;
+}
+.footer__btn {
+  height: 40px;
+  width: 40px;
+  background-color: var(--bg);
+  cursor: pointer;
+  margin-right: 5px;
+  border: 1px solid #738adb;
+}
+.footer__btn:hover {
+  background-color: #6380e9;
+}
+
+.footer__icon {
+  color: #ccc;
+  font-size: 2rem;
+}

@@ -1,0 +1,32 @@
+.about__nfts {
+}
+.about__nfts {
+  border-top: 1px solid grey;
+}
+.aboutNft__container {
+  margin-top: 30px;
+
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #13131a;
+}
+.aboutNft__container span {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.aboutNft__container p {
+  flex: 1;
+
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 769px) {
+  .aboutNft__container {
+    display: inline-block;
+  }
+  .aboutNft__container p {
+    margin-bottom: 20px;
+  }
+}

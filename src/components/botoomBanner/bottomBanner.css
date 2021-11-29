@@ -1,0 +1,57 @@
+.bottom__Banner {
+  height: 600px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 100px;
+  background-image: url("../../assets/imgs/bar.jfif");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.bottombanner__container {
+  position: relative;
+}
+.banner__content {
+  position: absolute;
+  top: 200px;
+  left: 7vw;
+  opacity: 1 !important;
+  color: rgb(215, 211, 224);
+}
+.banner__content h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.banner__text {
+  max-width: 400px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.banner__logo {
+  font-size: 45px !important;
+}
+
+.discord__btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  outline: none;
+  background-color: #738adb;
+  border-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  margin-right: 30px;
+}
+.discord__btn:hover {
+  background-color: #6380e9;
+}
