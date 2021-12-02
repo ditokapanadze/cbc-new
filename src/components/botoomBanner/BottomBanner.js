@@ -14,7 +14,7 @@ function BotttomBanner() {
           Join us to get the news as soon as possible and follow our latest
           announcements.
         </p>
-        <a href="https://discord.com/" target="_blank">
+        <a href="https://discord.gg/e5mcMBxN" target="_blank">
           <button className="discord__btn">
             <p>Join Discord</p> <FaDiscord className="banner__logo" />{" "}
           </button>

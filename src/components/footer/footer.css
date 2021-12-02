@@ -12,7 +12,9 @@
 .logo__container {
   display: flex;
   align-items: center;
-  max-width: 220px;
+
+  width: 100%;
+  max-width: 200px;
   justify-content: space-between;
 }
 .logo__container p {
@@ -42,4 +44,18 @@
 .footer__icon {
   color: #ccc;
   font-size: 2rem;
+}
+
+@media (max-width: 480px) {
+  .footer__li:not(:last-child) {
+    display: none;
+  }
+  .footer {
+    flex-direction: column;
+    justify-content: normal;
+  }
+  .footer__btn {
+    margin-right: 20px;
+    margin-top: 10px;
+  }
 }

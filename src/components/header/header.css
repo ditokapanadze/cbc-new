@@ -9,8 +9,17 @@ header {
   top: 0;
   left: 0;
   right: 0;
-
+  /* transform: translateY(-100px); */
   z-index: 1000;
+  /* animation: headerAnimation 2s forwards; */
+}
+@keyframes headerAnimation {
+  from {
+    transform: translateY(-100px);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
 .logo {
 }

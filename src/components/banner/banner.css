@@ -133,6 +133,11 @@ section {
   }
 }
 
+@media (max-width: 1025px) {
+  .home {
+    background-position: right;
+  }
+}
 @media (max-width: 450px) {
   html {
     font-size: 50%;

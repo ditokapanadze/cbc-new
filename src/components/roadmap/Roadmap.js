@@ -1,8 +1,9 @@
 import React, { useEffect, useRef, useState, useCallback } from "react";
 import "./roadmap.css";
 import useOnScreen from "../../hooks/useIntersection ";
-import video from "../../assets/videos/glow.mp4";
+import bottle from "../../assets/videos/glow.mp4";
 import useWindowDimensions from "../../hooks/useWindowDimensions";
+import { Controller, Scene } from "react-scrollmagic";
 
 function Roadmap() {
   const ref = useRef();
@@ -57,6 +58,11 @@ function Roadmap() {
   //   width < 700 && setMargin(width - 400 + "px");
   // }, [width]);
   console.log(margin);
+
+  // test video animation
+
+  //
+
   return (
     <section className="roadmap__container" id="roadmap">
       {/* <span>ROADMAP ACTIVATIONS</span>
@@ -171,74 +177,6 @@ function Roadmap() {
         </p>
       </div>
 
-      {/* <ul className="roadmap__ul">
-        <li className="roadmap__li">
-          <span style={{ fontSize: "20px" }}>10% </span>
-          <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old.
-          </p>
-        </li>
-
-        <li className="roadmap__li">
-          <span style={{ fontSize: "20px" }}>20% </span>
-          <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old.
-          </p>
-        </li>
-        <li className="roadmap__li">
-          <span style={{ fontSize: "20px" }}>40% </span>
-          <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old.
-          </p>
-        </li>
-        <li className="roadmap__li">
-          <span style={{ fontSize: "20px" }}>60% </span>
-          <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old.
-          </p>
-        </li>
-        <li className="roadmap__li">
-          <span style={{ fontSize: "20px" }}>80% </span>
-          <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old.
-          </p>
-        </li>
-        <li className="roadmap__li">
-          <span style={{ fontSize: "20px" }}>90% </span>
-          <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old.
-          </p>
-        </li>
-        <li className="roadmap__li">
-          <span style={{ fontSize: "20px" }}>100% </span>
-          <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old.
-          </p>
-        </li>
-      </ul> */}
-      {/* <video
-        loop={true}
-        autoPlay={play}
-        muted={true}
-        playbackRate="0.1"
-        className="video"
-      >
-        <source src={video} type="video/mp4" />
-      </video> */}
       {/* <ReactPlayer url={video} playing={true} loop={true} /> */}
     </section>
   );
